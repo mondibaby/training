@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <h1>Onsubmit</h1>
+    <p id="p1"></p>
+    <form onsubmit="svaa()">
+        <input type="text" name="name">
+        <input type="submit" value="submit">
+    </form>
+    <script>
+        function svaa(){
+            document.getElementById("p1").innerHTML="Hello welcome";
+        }
+    </script>
+</body>
+</html>

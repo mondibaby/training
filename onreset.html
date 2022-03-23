@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Onreset</h1>
+    <p id="p1"></p>
+    <form onreset="event1()">
+        <input type="text" name="name">
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </form>
+    <script>
+        function event1(){
+            document.getElementById("p1").innerHTML="all values are cleared"
+        }
+    </script>
+</body>
+</html>
+
+for(i=0'i<=10;i++){
+    console.log(i)
+}
